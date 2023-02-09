@@ -7,4 +7,20 @@
 
 2.浏览器图标是在public文件夹的ico文件中
 
-3.
+3.引入vant组件
+
+4.REM适配
+4.1 安装 npm i amfe-flexible 插件
+4.2 然后再main.js导入模块
+4.3 安装 npm i postcss-pxtorem -D 将px转为rem
+4.4 在项目根目录新建postcss.config.js 写上
+module.exports = {
+  plugins: {
+    'postcss-pxtorem': {
+      rootValue: 37.5,
+      propList: ['*'],
+    },
+  },
+};
+4.5 重启服务
+4.6 注意：行内样式的px单位转换不了rem
