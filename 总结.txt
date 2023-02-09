@@ -1,0 +1,10 @@
+1.对svg图标制作icon图标 使用阿里巴巴inconfont图标网站
+1.1 点击资源管理——我的项目-新建项目
+1.2 上传svg图标  添加到项目
+1.3 点击font-class 查看在线连接 点击链接 全选把样式复制
+1.4 新建icon.less文件 把复制的样式粘贴到文件里
+1.5 在index.less 用 @import 'icon.less路径' 导入
+
+2.浏览器图标是在public文件夹的ico文件中
+
+3.
